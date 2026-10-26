@@ -1,0 +1,13 @@
+# Base do ISP Microdados e outros dados: nunca versionar (Portaria ISP 127/2022)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.zip
+*.dbc
+data/
+
+# Ambiente local
+.ipynb_checkpoints/
+__pycache__/
+.env
