@@ -11,3 +11,7 @@ data/
 .ipynb_checkpoints/
 __pycache__/
 .env
+
+# Exceção: limites territoriais públicos do ISPDados (não são microdados; ver geo/README.md)
+!geo/*.zip
+!geo/*.csv

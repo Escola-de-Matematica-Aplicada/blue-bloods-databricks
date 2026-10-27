@@ -44,6 +44,7 @@ Os notebooks baixam os dados públicos na hora. O Free Edition restringe o acess
 | --- | --- | --- |
 | [Corpus KDMiLe 2026](https://github.com/murilogoes/bo-anonymizer-ptbr): 996 narrativas de roubo descaracterizadas | NLP e anonimização | CC BY 4.0; citar ALMEIDA, M. G. de; BOTEGA, L. C.; LIMA, P. M. de P. *Local Anonymization of Free-Text Robbery Police Reports in Brazilian Portuguese*. KDMiLe, SBC, 2026 |
 | [ISPDados](https://www.ispdados.rj.gov.br/): séries mensais por CISP e população | Evidência e plano B | Download livre |
+| [ISPDados](https://www.ispdados.rj.gov.br/): limites de RISP, AISP e CISP (pasta [`geo/`](geo/README.md)), com o contorno da UF | Mapas e taxas por área | Download livre; convertidos de `.rar` para GeoJSON e shapefile |
 | [ISP Microdados](https://ispconecta.rj.gov.br/microdados/) | Base do miniprojeto (lab 4) | Cada aluno baixa com as próprias credenciais e o Termo de Responsabilidade |
 
 **A base do ISP Microdados não entra neste repositório.** A [Portaria ISP nº 127/2022](http://arquivo.proderj.rj.gov.br/isp_imagens/Uploads/PortariaISP127_Fornecimento_Microdados.pdf) proíbe comercializar ou repassar a base a terceiros. O arquivo fica só no workspace de quem baixou, no volume restrito `bronze.isp_microdados`, e o `.gitignore` bloqueia planilhas e arquivos de dados.
